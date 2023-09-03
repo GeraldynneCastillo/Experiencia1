@@ -1,0 +1,26 @@
+<ion-content>
+  <div id="header">
+    <div id="app-bar">
+      <ion-icon name="arrow-back" routerLink="/inicio"></ion-icon>
+    </div>
+    <h1>Inicio sesión</h1>
+    <p>Inicia sesión con nosotros! <br /> :) </p>
+  </div>
+  <div class="wrapper">
+    <ion-card class="form-wrapper">
+      <ion-card-content>
+        <ion-item>
+          <ion-icon name="mail"></ion-icon>
+          <ion-input type="email" placeholder="Ingrese su correo"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="lock-closed"></ion-icon>
+          <ion-input type="password" placeholder="Contraseña"></ion-input>
+        </ion-item>
+        <ion-button expand="full" color="primary" class="ion-margin-top" (click)="Enviar()">
+            Ingresar
+        </ion-button>
+            </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
