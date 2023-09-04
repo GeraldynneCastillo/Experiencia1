@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500&family=Dosis:wght@600&display=swap');
+
 ion-content{
     -background: #e0dfe6;
 #header{
-    height: 33%;
+    height: 37%;
     background: #7972e6;
     border-radius: 0 0 20px 20px;
     display: flex;
@@ -35,23 +38,27 @@ ion-content{
     }
  }   
  h1{
-    font-size: 19px;
+    font-size: 25px;
     margin-bottom: 5px;
- }
+    font-family: 'Cabin Condensed', sans-serif;
+}
  p{
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.4;
+    font-family: 'Dosis', sans-serif;
  }
+
 }
 .wrapper{
     position: absolute;
-    top: 26%;
+    top: 29%;
     left: 4%;
     right: 4%;
     .form-wrapper{
         box-shadow: none;
         border-radius: 20px;
         padding: 15px 10px;
+        margin-top: 20px;
 
         ion-item{
             --background: #efefef;
@@ -74,7 +81,9 @@ ion-content{
         }
         ion-button{
             margin-top: 25px;
+            font-family: 'Dosis', sans-serif;
         }
     }
+    
 }
 } 
